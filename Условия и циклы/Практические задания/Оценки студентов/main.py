@@ -12,5 +12,5 @@ students = [
 
 for students in students:
     if students['grade'] > 3:
-        print(f'{students["name"]})
+        print(f'{students["name"]}. Оценка: {students["grade"]}')
 # TODO Распечатать имена студентов с оценками выше тройки

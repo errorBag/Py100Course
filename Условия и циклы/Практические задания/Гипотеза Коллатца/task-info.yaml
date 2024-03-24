@@ -3,8 +3,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 94
-        length: 69
+      - offset: 232
+        length: 70
         placeholder_text: '# TODO Посчитайте количество действий над числом по гипотезе
       Коллатца'
         initial_state:
@@ -20,7 +20,8 @@ files:
                   num //= 2
               count += 1
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       num = 27  # Число для проверки гипотезы Коллатца
       count = 0  # Количество операций над числом
@@ -37,5 +38,8 @@ files:
     text: |
       Количество действий: 111
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 22 Mar 2024 16:45:21 UTC"
 record: -1
