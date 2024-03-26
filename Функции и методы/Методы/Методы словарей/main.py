@@ -7,7 +7,9 @@ student_scores = {"John": 85, "Jane": 92, "Alice": 78}
 # Итерирование по значениям словаря
 for score in student_scores.values():
     print(score)
-
+list_ = []
 # Итерирование по парам ключ-значение словаря
 for item in student_scores.items():
     print(item)
+    list_.append(item)
+print(list_)

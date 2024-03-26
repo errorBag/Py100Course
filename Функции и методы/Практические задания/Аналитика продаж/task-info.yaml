@@ -3,7 +3,7 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 43
+      - offset: 162
         length: 78
         placeholder_text: "...  # TODO Вычислите общую стоимость проданных товаров из\
       \ списка `sales_list`"
@@ -18,9 +18,10 @@ files:
           
               return total
         selected: false
-        status: Unchecked
-      - offset: 359
-        length: 103
+        status: Solved
+        is_visible: false
+      - offset: 478
+        length: 133
         placeholder_text: "...  # TODO Вызовете функцию calculate_total_sales и переда\
       йте в функцию значение переменной sales_data"
         initial_state:
@@ -29,7 +30,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: calculate_total_sales(sales_data)
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       def calculate_total_sales(sales_list):
           ...  # TODO Вычислите общую стоимость проданных товаров из списка `sales_list`
@@ -52,5 +54,8 @@ files:
     text: |
       Общая стоимость проданных товаров: 14500
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 26 Mar 2024 14:07:44 UTC"
 record: -1

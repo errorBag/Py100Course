@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 36
-        length: 63
+        length: 91
         placeholder_text: "...  # TODO записать условие, что только первое число меньш\
       е 45"
         initial_state:
@@ -13,9 +13,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: a < 45 and b >= 45 and c >= 45
         selected: false
-        status: Unchecked
-      - offset: 114
-        length: 63
+        status: Solved
+        is_visible: false
+      - offset: 142
+        length: 90
         placeholder_text: "...  # TODO записать условие, что только второе число меньш\
       е 45"
         initial_state:
@@ -24,9 +25,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: a >= 45 and b < 45 and c >= 45
         selected: false
-        status: Unchecked
-      - offset: 192
-        length: 63
+        status: Solved
+        is_visible: false
+      - offset: 247
+        length: 90
         placeholder_text: "...  # TODO записать условие, что только третье число меньш\
       е 45"
         initial_state:
@@ -35,9 +37,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: a >= 45 and b >= 45 and c < 45
         selected: false
-        status: Unchecked
-      - offset: 260
-        length: 86
+        status: Solved
+        is_visible: false
+      - offset: 342
+        length: 124
         placeholder_text: "...:  # TODO объединить три условия с помощью нужного логич\
       еского оператора and или or"
         initial_state:
@@ -46,7 +49,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 'condition_1 or condition_2 or condition_3:'
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       a = 73
       b = 10
@@ -67,5 +71,8 @@ files:
     text: |
       Одно из чисел меньше 45
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 25 Mar 2024 07:05:03 UTC"
 record: -1

@@ -31,7 +31,8 @@ files:
           elif x > 0 and y < 0:  # x > 0, y < 0
               print("Четвертая четверть")
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       x = 1
       y = -1
@@ -56,5 +57,8 @@ files:
     text: |
       Четвертая четверть
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 25 Mar 2024 07:08:06 UTC"
 record: -1

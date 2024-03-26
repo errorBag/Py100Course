@@ -3,8 +3,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 43
-        length: 61
+      - offset: 42
+        length: 62
         placeholder_text: '# TODO завести отдельные счетчики для четных и нечетных чисел'
         initial_state:
           length: 61
@@ -14,8 +14,9 @@ files:
           count_even = 0  # количество четных чисел
           count_odd = 0  # количество нечетных чисел
         selected: false
-        status: Unchecked
-      - offset: 106
+        status: Solved
+        is_visible: false
+      - offset: 143
         length: 90
         placeholder_text: '# TODO с помощью одного цикла перебрать все числа и посчитать
       количество четных и нечетных'
@@ -30,9 +31,10 @@ files:
               else:
                   count_odd += 1
         selected: false
-        status: Unchecked
-      - offset: 198
-        length: 33
+        status: Solved
+        is_visible: false
+      - offset: 314
+        length: 299
         placeholder_text: '# TODO вывести каких чисел больше'
         initial_state:
           length: 33
@@ -46,7 +48,8 @@ files:
           else:
               print('Четных и нечетных одинаковое количество')
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       list_ = [3, 4, 8, 9, 6, 6, 2, 4, 3, 3, 1]
       
@@ -64,5 +67,8 @@ files:
     text: |
       Четных чисел больше
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 25 Mar 2024 07:51:34 UTC"
 record: -1
