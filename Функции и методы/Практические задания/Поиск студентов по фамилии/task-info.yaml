@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 56
-        length: 58
+        length: 171
         placeholder_text: "...  # TODO Напишите проверку студента с заданной фамилией"
         initial_state:
           length: 58
@@ -16,7 +16,8 @@ files:
                       return True
               return False
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       def exists_student_by_lastname(students, lastname):
           ...  # TODO Напишите проверку студента с заданной фамилией
@@ -42,5 +43,8 @@ files:
       Есть ли в базе студент с фамилией Иванов? True
       Есть ли в базе студент с фамилией Пупкин? False
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 27 Mar 2024 07:01:58 UTC"
 record: -1

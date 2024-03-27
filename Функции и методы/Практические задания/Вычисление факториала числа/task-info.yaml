@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 35
+        length: 180
         placeholder_text: '# TODO Запишите функцию `factorial`'
         initial_state:
           length: 35
@@ -21,9 +21,10 @@ files:
           
               return result
         selected: false
-        status: Unchecked
-      - offset: 38
-        length: 139
+        status: Solved
+        is_visible: false
+      - offset: 183
+        length: 157
         placeholder_text: "# TODO Вызовите функцию factorial и распечатайте результат\
       \ \nprint(f\"Факториал числа 0 равен {...}\")\nprint(f\"Факториал числа 5 ра\
       вен {...}\")"
@@ -35,7 +36,8 @@ files:
           print(f"Факториал числа 0 равен {factorial(0)}")
           print(f"Факториал числа 5 равен {factorial(5)}")
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: "# TODO Запишите функцию `factorial`\n\n\n# TODO Вызовите функцию factorial\
     \ и распечатайте результат \nprint(f\"Факториал числа 0 равен {...}\")\nprint(f\"\
     Факториал числа 5 равен {...}\")\n"
@@ -49,5 +51,8 @@ files:
       Факториал числа 0 равен 1
       Факториал числа 5 равен 120
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 27 Mar 2024 09:40:08 UTC"
 record: -1

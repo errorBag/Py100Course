@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 58
+        length: 173
         placeholder_text: |-
           # TODO реализовать функцию
           def get_unique_words():
@@ -19,7 +19,8 @@ files:
               unique_words.sort()
               return unique_words
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       # TODO реализовать функцию
       def get_unique_words():
@@ -36,5 +37,8 @@ files:
     text: |
       ['Возможно', 'Здесь', 'и', 'много', 'повторений.', 'разных', 'слов.']
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 27 Mar 2024 15:26:15 UTC"
 record: -1

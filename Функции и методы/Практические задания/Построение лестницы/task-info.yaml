@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 36
+        length: 113
         placeholder_text: '# TODO Напишите функцию print_stairs'
         initial_state:
           length: 36
@@ -15,8 +15,9 @@ files:
               for i in range(1, count_stairs + 1):
                   print("*" * i)
         selected: false
-        status: Unchecked
-      - offset: 39
+        status: Solved
+        is_visible: false
+      - offset: 147
         length: 62
         placeholder_text: '# TODO вызвать функцию без аргументов и с аргументом равным
       10'
@@ -28,7 +29,8 @@ files:
           print_stairs()
           print_stairs(10)
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       # TODO Напишите функцию print_stairs
       
@@ -56,5 +58,8 @@ files:
       *********
       **********
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 27 Mar 2024 09:48:46 UTC"
 record: -1
