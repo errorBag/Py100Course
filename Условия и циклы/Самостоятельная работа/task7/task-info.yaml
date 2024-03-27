@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 195
-        length: 313
+        length: 288
         placeholder_text: |-
           # TODO переписать на цикл с постусловием
           while sum_ < max_sum:  # делай пока ...
@@ -14,7 +14,7 @@ files:
           
           print("Количество чисел: ", n)
         initial_state:
-          length: 306
+          length: 313
           offset: 195
         initialized_from_dependency: false
         encrypted_possible_answer: |-

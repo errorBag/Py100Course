@@ -4,13 +4,13 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 173
+        length: 288
         placeholder_text: |-
           # TODO реализовать функцию
           def get_unique_words():
               ...
         initial_state:
-          length: 58
+          length: 173
           offset: 0
         initialized_from_dependency: false
         encrypted_possible_answer: |-

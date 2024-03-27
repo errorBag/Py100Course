@@ -4,10 +4,10 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 234
+        length: 531
         placeholder_text: '# TODO Напишите функцию `is_palindrome`'
         initial_state:
-          length: 39
+          length: 234
           offset: 0
         initialized_from_dependency: false
         encrypted_possible_answer: |-

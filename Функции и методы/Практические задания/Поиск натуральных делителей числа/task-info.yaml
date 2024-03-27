@@ -4,10 +4,10 @@ files:
     visible: true
     placeholders:
       - offset: 42
-        length: 164
+        length: 279
         placeholder_text: "...  # TODO Найдите список делителей числа number"
         initial_state:
-          length: 49
+          length: 164
           offset: 42
         initialized_from_dependency: false
         encrypted_possible_answer: |-

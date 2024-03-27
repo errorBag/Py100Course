@@ -4,10 +4,10 @@ files:
     visible: true
     placeholders:
       - offset: 56
-        length: 171
+        length: 284
         placeholder_text: "...  # TODO Напишите проверку студента с заданной фамилией"
         initial_state:
-          length: 58
+          length: 171
           offset: 56
         initialized_from_dependency: false
         encrypted_possible_answer: |-

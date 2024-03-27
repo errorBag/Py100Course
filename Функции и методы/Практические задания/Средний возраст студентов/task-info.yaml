@@ -19,7 +19,7 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 433
+      - offset: 700
         length: 122
         placeholder_text: "print(f\"Средний возраст студентов: {...)} лет\")  # TODO Р\
       аспечатайте средний возраст студентов"

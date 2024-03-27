@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 113
+        length: 36
         placeholder_text: '# TODO Напишите функцию print_stairs'
         initial_state:
           length: 36
