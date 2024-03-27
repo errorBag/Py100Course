@@ -17,3 +17,6 @@ students_dict = {
 calculate_average_age(students_dict)
 
 print(f"Средний возраст студентов: {calculate_average_age(students_dict)}")  # TODO Распечатайте средний возраст студентов
+print()
+
+pass
