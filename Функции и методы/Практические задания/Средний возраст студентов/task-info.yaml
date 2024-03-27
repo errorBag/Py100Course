@@ -24,8 +24,8 @@ files:
         placeholder_text: "print(f\"Средний возраст студентов: {...)} лет\")  # TODO Р\
       аспечатайте средний возраст студентов"
         initial_state:
-          length: 94
-          offset: 194
+          length: 122
+          offset: 433
         initialized_from_dependency: false
         encrypted_possible_answer: "print(f\"Средний возраст студентов: {calculate_average_age(students_dict)}\"\
       )"

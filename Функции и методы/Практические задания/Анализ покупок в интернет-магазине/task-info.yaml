@@ -16,9 +16,10 @@ files:
               common_purchases.sort()
               return common_purchases
         selected: false
-        status: Unchecked
-      - offset: 168
-        length: 63
+        status: Solved
+        is_visible: false
+      - offset: 328
+        length: 114
         placeholder_text: "print(f\"Общие товары: {...}\")  # TODO Распечатайте общие\
       \ товары"
         initial_state:
@@ -28,7 +29,8 @@ files:
         encrypted_possible_answer: "print(f\"Общие товары: {find_common_items(last_week_items,\
       \ current_week_items)}\")"
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       # TODO Напишите функцию find_common_items
       
@@ -46,5 +48,8 @@ files:
     text: |
       Общие товары: ['ноутбук', 'флешка']
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 27 Mar 2024 18:21:22 UTC"
 record: -1
