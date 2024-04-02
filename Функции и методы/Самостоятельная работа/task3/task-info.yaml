@@ -13,7 +13,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 53
+        length: 85
         placeholder_text: |-
           # TODO реализовать функцию count
           def count():
@@ -31,7 +31,8 @@ files:
           
               return count_value
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       # TODO реализовать функцию count
       def count():
@@ -42,5 +43,8 @@ files:
       print(count(list_items, 1) == list_items.count(1))  # True
       print(count(list_items, 3) == list_items.count(3))  # True
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 02 Apr 2024 21:31:56 UTC"
 record: -1

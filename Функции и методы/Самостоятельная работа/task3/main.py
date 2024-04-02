@@ -1,6 +1,6 @@
 # TODO реализовать функцию count
-def count():
-    ...
+def count(list_1, num):
+    return list_1.count(num)
 
 
 list_items = [1, 2, "3", 1]

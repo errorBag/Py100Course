@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 38
+        length: 0
         placeholder_text: '# TODO  Напишите функцию count_letters'
         initial_state:
           length: 38
@@ -23,9 +23,10 @@ files:
                           letter_count[char] = 1
               return letter_count
         selected: false
-        status: Unchecked
-      - offset: 41
-        length: 43
+        status: Solved
+        is_visible: false
+      - offset: 573
+        length: 1
         placeholder_text: '# TODO Напишите функцию calculate_frequency'
         initial_state:
           length: 43
@@ -36,9 +37,10 @@ files:
       \ count in letter_count.items():\n        letter_frequency[current_letter] =\
       \ count / total_letters\n        \n    return letter_frequency"
         selected: false
-        status: Unchecked
-      - offset: 999
-        length: 57
+        status: Solved
+        is_visible: false
+      - offset: 1533
+        length: 146
         placeholder_text: '# TODO Распечатайте в столбик букву и её частоту в тексте'
         initial_state:
           length: 57
@@ -51,7 +53,8 @@ files:
           for letter, frequency in frequency_dict.items():
               print(f"{letter}: {frequency:.2f}")
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       # TODO  Напишите функцию count_letters
       
@@ -134,6 +137,9 @@ files:
       ж: 0.01
       щ: 0.00
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 02 Apr 2024 21:06:54 UTC"
 record: -1
 solution_hidden: true

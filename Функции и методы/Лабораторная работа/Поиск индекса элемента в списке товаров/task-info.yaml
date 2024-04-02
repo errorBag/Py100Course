@@ -16,9 +16,10 @@ files:
                   if current_item == item:
                       return index
         selected: false
-        status: Unchecked
-      - offset: 188
-        length: 56
+        status: Solved
+        is_visible: false
+      - offset: 300
+        length: 85
         placeholder_text: "...  # TODO Вызовите функцию, что получить индекс товара"
         initial_state:
           length: 56
@@ -26,7 +27,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: "find_item_index(items_list, find_item)"
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       # TODO Напишите функцию для поиска индекса товара
       
@@ -50,6 +52,9 @@ files:
       Первое вхождение товара 'груша' имеет индекс 3.
       Товар 'персик' не найден в списке.
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 31 Mar 2024 07:51:05 UTC"
 record: -1
 solution_hidden: true
