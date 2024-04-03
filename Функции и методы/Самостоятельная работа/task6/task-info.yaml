@@ -3,14 +3,16 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 329
-        length: 97
+      - offset: 79
+        length: 70
         placeholder_text: "...  # TODO проверить что в строку входят только символы 1\
       \ и 0"
         initial_state:
           length: 62
           offset: 79
         initialized_from_dependency: false
+        selected: false
+        status: Solved
         encrypted_possible_answer: |-
           if not str_:
                   return False
@@ -19,9 +21,6 @@ files:
                   if d not in ALLOW_SYMBOLS:
                       return False
               return True
-        selected: false
-        status: Solved
-        is_visible: false
     text: |
       ALLOW_SYMBOLS = ["0", "1"]  # Допустимые символы
       
@@ -49,5 +48,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 03 Apr 2024 16:19:16 UTC"
+  time: "Wed, 03 Apr 2024 16:49:26 UTC"
 record: -1

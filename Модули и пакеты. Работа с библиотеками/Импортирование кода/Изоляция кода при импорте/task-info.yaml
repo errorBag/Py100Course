@@ -24,8 +24,8 @@ files:
   - name: logic.py
     visible: true
     placeholders:
-      - offset: 100
-        length: 183
+      - offset: 70
+        length: 237
         placeholder_text: |-
           # TODO Поместите код в условие if __name__ == '__main__':
           print(f"Функция `calculate_square_area` вызвана в модуле {__name__}")  # Печать переменной с названием модуля
@@ -34,13 +34,12 @@ files:
           length: 237
           offset: 70
         initialized_from_dependency: false
+        selected: false
+        status: Solved
         encrypted_possible_answer: |-
           if __name__ == '__main__':
               print(f"Функция `calculate_square_area` вызвана в модуле {__name__}")  # Печать переменной с названием модуля
               print(calculate_square_area(2))  # код оставшийся от проверки функции
-        selected: false
-        status: Solved
-        is_visible: false
     text: |
       def calculate_square_area(side_length):
           return side_length ** 2
@@ -53,5 +52,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 03 Apr 2024 16:30:30 UTC"
+  time: "Wed, 03 Apr 2024 16:49:37 UTC"
 record: -1

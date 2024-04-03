@@ -11,27 +11,25 @@ files:
           length: 85
           offset: 0
         initialized_from_dependency: false
+        selected: false
+        status: Solved
         encrypted_possible_answer: |-
           def calculate_average_age(students):
               all_ages = students.values()
               average = sum(all_ages) / len(all_ages)
               return average
-        selected: false
-        status: Solved
-        is_visible: false
       - offset: 700
         length: 122
         placeholder_text: "print(f\"Средний возраст студентов: {...)} лет\")  # TODO Р\
       аспечатайте средний возраст студентов"
         initial_state:
           length: 122
-          offset: 433
+          offset: 700
         initialized_from_dependency: false
-        encrypted_possible_answer: "print(f\"Средний возраст студентов: {calculate_average_age(students_dict)}\"\
-      )"
         selected: false
         status: Solved
-        is_visible: false
+        encrypted_possible_answer: "print(f\"Средний возраст студентов: {calculate_average_age(students_dict)}\"\
+      )"
     text: "# TODO Напишите функцию calculate_average_age для расчета среднего возрас\
     та студентов\n\n\nstudents_dict = {\n    'Саша': 27,\n    'Кирилл': 52, \n   \
     \ 'Маша': 14, \n    'Петя': 36, \n    'Оля': 43, \n}\n\nprint(f\"Средний возра\
