@@ -2,7 +2,17 @@ ALLOW_SYMBOLS = ["0", "1"]  # Допустимые символы
 
 
 def check_string(str_):
-    ...  # TODO проверить что в строку входят только символы 1 и 0
+    if not str_:
+        return False
+    for i in set(str_):
+        if i not in ALLOW_SYMBOLS:
+            return False
+    return True
+    # if str_.isdigit() and (str_.replace('0', '') == str_.replace('1', '')):
+    #     return True
+    # else:
+    #     return False
+    # return str_.isdigit() and str_.replace('0', '') == str_.replace('1', '')
 
 
 print(check_string("1010101010"))
