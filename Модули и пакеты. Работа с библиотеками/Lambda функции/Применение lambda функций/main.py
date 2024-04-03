@@ -20,7 +20,7 @@ people = [
     {"name": "Adam", "age": 20}
 ]
 
-sorted_people = sorted(people, key=lambda p: p["age"])
+sorted_people = sorted(people, key=lambda p: p["name"])
 print(sorted_people)  # [{"name": "Adam", "age": 20}, {"name": "John", "age": 25}, {"name": "Emily", "age": 30}]
 
 # Сортировка по возрасту в порядке убывания

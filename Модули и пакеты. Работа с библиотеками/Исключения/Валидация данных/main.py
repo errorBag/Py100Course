@@ -13,4 +13,4 @@ def add_func(a: int, b: int) -> int:
 
 
 if __name__ == '__main__':
-    print(add_func(1, 1))
+    print(add_func(int(input('Введите число   ')), int(input('Введите число   '))))

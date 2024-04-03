@@ -22,7 +22,7 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 502
+      - offset: 418
         length: 67
         placeholder_text: '# TODO Провеьте работу функции с разделителем отличным от запятой'
         initial_state:
