@@ -14,9 +14,10 @@ files:
           def get_shortest_word(words: list[str]) -> str:
               return min(words, key=len)
         selected: false
-        status: Unchecked
-      - offset: 161
-        length: 40
+        status: Solved
+        is_visible: false
+      - offset: 505
+        length: 64
         placeholder_text: "...  # TODO Найдите самое короткое слово"
         initial_state:
           length: 40
@@ -24,7 +25,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: get_shortest_word(words_list)
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       # TODO  Напишите функцию get_shortest_word
       
@@ -42,5 +44,8 @@ files:
     text: |
       kiwi
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 10 Apr 2024 17:47:47 UTC"
 record: -1

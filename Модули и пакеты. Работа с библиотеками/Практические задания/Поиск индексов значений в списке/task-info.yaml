@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 201
+        length: 402
         placeholder_text: |-
           # TODO написать функцию index
           def index():
@@ -23,7 +23,7 @@ files:
                   raise ValueError("Значение не найдено")
               return list_index
         selected: false
-        status: Failed
+        status: Solved
         is_visible: false
     text: |
       # TODO написать функцию index
@@ -43,12 +43,8 @@ files:
     text: |
       True
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: "Wed, 10 Apr 2024 14:03:52 UTC"
-  expected: |
-    True
-  actual: |
-    False
+  message: Congratulations!
+  time: "Wed, 10 Apr 2024 17:47:28 UTC"
 record: -1

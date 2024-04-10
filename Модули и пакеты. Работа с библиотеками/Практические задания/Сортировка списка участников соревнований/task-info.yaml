@@ -14,7 +14,8 @@ files:
           def sort_participants(participants: list[dict]) -> list[dict]:
               return sorted(participants, key=lambda item: item["name"])
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     text: |
       # TODO Напишите функцию sort_participants
       
@@ -53,5 +54,8 @@ files:
     text: |
       [{'name': 'Кирилл', 'age': 52}, {'name': 'Маша', 'age': 14}, {'name': 'Оля', 'age': 43}, {'name': 'Петя', 'age': 36}, {'name': 'Саша', 'age': 27}]
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 10 Apr 2024 18:06:54 UTC"
 record: -1
