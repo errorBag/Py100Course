@@ -1,6 +1,9 @@
-# TODO написать функцию index
-def index():
-    ...
+from typing import Any
+def index(list_of_values: list, value: Any):
+    try:
+        return list_of_values.index(value)
+    except ValueError:
+        raise ValueError(f"Элемента {value} нет в списке")
 
 
 if __name__ == '__main__':
