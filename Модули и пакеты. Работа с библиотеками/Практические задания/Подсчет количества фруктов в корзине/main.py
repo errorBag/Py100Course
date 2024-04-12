@@ -1,6 +1,5 @@
 # TODO Импортируйте Counter из модуля collections
 from collections import Counter
-import time
 
 def counter(a):
     return Counter(a)
