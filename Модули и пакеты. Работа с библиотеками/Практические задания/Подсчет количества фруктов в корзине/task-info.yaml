@@ -14,7 +14,7 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 798
+      - offset: 810
         length: 43
         placeholder_text: '# TODO Подсчитайте фрукты с помощью Counter'
         initial_state:
